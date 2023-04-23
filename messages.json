@@ -1,0 +1,170 @@
+{
+  "messages": {
+    "alice": {
+      "bob": [
+        {
+          "message": "Good morning Alice!",
+          "timestamp": "2023-04-22T23:39:33",
+          "way": "in"
+        },
+        {
+          "message": "Gm",
+          "timestamp": "2023-04-22T23:39:39",
+          "way": "out"
+        },
+        {
+          "message": "Had breakfast?",
+          "timestamp": "2023-04-22T23:39:43",
+          "way": "out"
+        },
+        {
+          "message": "Nope not yet",
+          "timestamp": "2023-04-22T23:39:46",
+          "way": "in"
+        },
+        {
+          "message": "wbu?",
+          "timestamp": "2023-04-22T23:39:49",
+          "way": "in"
+        },
+        {
+          "message": "Almost done",
+          "timestamp": "2023-04-22T23:39:55",
+          "way": "out"
+        },
+        {
+          "message": "Gotta run for class",
+          "timestamp": "2023-04-22T23:40:01",
+          "way": "out"
+        },
+        {
+          "message": "See ya later!",
+          "timestamp": "2023-04-22T23:40:06",
+          "way": "out"
+        },
+        {
+          "message": "Ok bye!",
+          "timestamp": "2023-04-22T23:40:15",
+          "way": "in"
+        }
+      ],
+      "max": []
+    },
+    "bob": {
+      "alice": [
+        {
+          "message": "Good morning Alice!",
+          "timestamp": "2023-04-22T23:39:33",
+          "way": "out"
+        },
+        {
+          "message": "Gm",
+          "timestamp": "2023-04-22T23:39:39",
+          "way": "in"
+        },
+        {
+          "message": "Had breakfast?",
+          "timestamp": "2023-04-22T23:39:43",
+          "way": "in"
+        },
+        {
+          "message": "Nope not yet",
+          "timestamp": "2023-04-22T23:39:46",
+          "way": "out"
+        },
+        {
+          "message": "wbu?",
+          "timestamp": "2023-04-22T23:39:49",
+          "way": "out"
+        },
+        {
+          "message": "Almost done",
+          "timestamp": "2023-04-22T23:39:55",
+          "way": "in"
+        },
+        {
+          "message": "Gotta run for class",
+          "timestamp": "2023-04-22T23:40:01",
+          "way": "in"
+        },
+        {
+          "message": "See ya later!",
+          "timestamp": "2023-04-22T23:40:06",
+          "way": "in"
+        },
+        {
+          "message": "Ok bye!",
+          "timestamp": "2023-04-22T23:40:15",
+          "way": "out"
+        }
+      ],
+      "max": [
+        {
+          "message": "Hey max are you up for tennis this evening?",
+          "timestamp": "2023-04-22T23:40:47",
+          "way": "out"
+        },
+        {
+          "message": "Ah I cannot say for sure",
+          "timestamp": "2023-04-22T23:41:17",
+          "way": "in"
+        },
+        {
+          "message": "My music teacher might hold an extra class today",
+          "timestamp": "2023-04-22T23:41:45",
+          "way": "in"
+        },
+        {
+          "message": "Oh",
+          "timestamp": "2023-04-22T23:41:49",
+          "way": "out"
+        },
+        {
+          "message": "message me if you are free will you?",
+          "timestamp": "2023-04-22T23:41:56",
+          "way": "out"
+        },
+        {
+          "message": "Ok sure!",
+          "timestamp": "2023-04-22T23:42:00",
+          "way": "in"
+        }
+      ]
+    },
+    "max": {
+      "alice": [],
+      "bob": [
+        {
+          "message": "Hey max are you up for tennis this evening?",
+          "timestamp": "2023-04-22T23:40:47",
+          "way": "in"
+        },
+        {
+          "message": "Ah I cannot say for sure",
+          "timestamp": "2023-04-22T23:41:17",
+          "way": "out"
+        },
+        {
+          "message": "My music teacher might hold an extra class today",
+          "timestamp": "2023-04-22T23:41:45",
+          "way": "out"
+        },
+        {
+          "message": "Oh",
+          "timestamp": "2023-04-22T23:41:49",
+          "way": "in"
+        },
+        {
+          "message": "message me if you are free will you?",
+          "timestamp": "2023-04-22T23:41:56",
+          "way": "in"
+        },
+        {
+          "message": "Ok sure!",
+          "timestamp": "2023-04-22T23:42:00",
+          "way": "out"
+        }
+      ]
+    }
+  }
+}

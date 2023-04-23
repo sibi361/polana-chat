@@ -1,0 +1,92 @@
+@media (max-width: 300px) {
+  .header,
+  .content {
+    flex-direction: column;
+  }
+}
+
+body {
+  font-family: Verdana, Helvetica, Arial;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.header,
+.content,
+.sidebar-container,
+.sidebar,
+.messages-container,
+.message-cell {
+  display: flex;
+}
+
+.content {
+  border-bottom: 2px black solid;
+}
+
+.sidebar-container,
+.sidebar,
+.messages-container {
+  flex-direction: column;
+}
+
+.header {
+  padding: 24px;
+  border-bottom: 2px black solid;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+
+.header-login-status {
+  margin-top: 10px;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.sidebar-container {
+  flex: 1;
+  max-width: 150px;
+  border-right: 2px black solid;
+}
+
+.sidebar-cell {
+  border-bottom: 1px black solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.sidebar-cell-selected {
+  background-color: aqua;
+}
+
+.messages-container {
+  flex: 5;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: space-between;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.message-cell {
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.message-cell > * {
+  display: inline;
+}
+
+input {
+  /* display: block; */
+  margin-top: 16px;
+  width: 80vh;
+}
