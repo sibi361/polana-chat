@@ -13,7 +13,7 @@ Python 3.7+
 
 ```
 git clone https://github.com/sibi361/polana_chat_app.git
-cd polana_chat_app
+cd polana-chat
 pip install -r requirements.txt
 uvicorn main:app
 ```
